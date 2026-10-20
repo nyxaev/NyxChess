@@ -1,4 +1,3 @@
-[README(1).md](https://github.com/user-attachments/files/33704793/README.1.md)
 <div align="center">
 
 <img src="assets/banner.svg" alt="NyxChess" width="100%"/>
