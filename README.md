@@ -13,11 +13,11 @@
 
 <br/>
 
-<a href="#como-abrir"><img src="assets/btn-abrir.svg" alt="Abrir no Android Studio" height="56"/></a>
-<a href="#como-debugar"><img src="assets/btn-debug.svg" alt="Debugar o app" height="56"/></a>
+<img src="assets/btn-abrir.svg" alt="Abrir no Android Studio" height="56"/>
+<img src="assets/btn-debug.svg" alt="Debugar o app" height="56"/>
 <br/>
-<a href="#como-abrir"><img src="assets/btn-testes.svg" alt="Rodar os testes" height="56"/></a>
-<a href="#personalizacao"><img src="assets/btn-temas.svg" alt="Personalizar temas" height="56"/></a>
+<img src="assets/btn-testes.svg" alt="Rodar os testes" height="56"/>
+<img src="assets/btn-temas.svg" alt="Personalizar temas" height="56"/>
 
 </div>
 
