@@ -6,18 +6,11 @@
 
 **Xadrez local para 2 jogadores (Pass-and-Play) em Kotlin + Jetpack Compose + Material 3.**
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7C5CFF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Compose](https://img.shields.io/badge/Jetpack_Compose-22D3EE?style=for-the-badge&logo=jetpackcompose&logoColor=04222C)
-![Material 3](https://img.shields.io/badge/Material_3-FF5CAA?style=for-the-badge&logo=materialdesign&logoColor=white)
-![Android](https://img.shields.io/badge/Android_7.0+-FFC857?style=for-the-badge&logo=android&logoColor=2B1B00)
-
+<img src="assets/btn-abrir.svg" alt="" height="56"/>
+<img src="assets/btn-debug.svg" alt="" height="56"/>
 <br/>
-
-<a href="#como-abrir"><img src="assets/btn-abrir.svg" alt="Abrir no Android Studio" height="56"/></a>
-<a href="#como-debugar"><img src="assets/btn-debug.svg" alt="Debugar o app" height="56"/></a>
-<br/>
-<a href="#como-abrir"><img src="assets/btn-testes.svg" alt="Rodar os testes" height="56"/></a>
-<a href="#personalizacao"><img src="assets/btn-temas.svg" alt="Personalizar temas" height="56"/></a>
+<img src="assets/btn-testes.svg" alt="" height="56"/>
+<img src="assets/btn-temas.svg" alt="" height="56"/>
 
 </div>
 
