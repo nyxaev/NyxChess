@@ -26,7 +26,6 @@
 ## Em ação
 
 <div align="center">
-<img src="assets/board.svg" alt="Mate do tolo animado" width="420"/>
 
 <sub>O mate do tolo (1. f3 e5 2. g4 Dh4#), o mesmo cenário coberto pelos testes do motor.</sub>
 </div>
@@ -38,7 +37,6 @@
 Cada tipo de botão tem uma cor própria para que as ações não se confundam:
 
 <div align="center">
-<img src="assets/palette.svg" alt="Paleta Nyx" width="640"/>
 </div>
 
 | Cor | Uso sugerido na interface |
