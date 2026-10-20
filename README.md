@@ -1,38 +1,6 @@
-# NyxChess
-
-Xadrez local para 2 jogadores (Pass-and-Play) em Kotlin + Jetpack Compose + Material 3.
-
-## Como abrir
-
-1. Abra a pasta NyxChess no Android Studio (Ladybug ou mais recente, JDK 17).
-2. Aguarde o Gradle Sync (o Android Studio gera o gradle-wrapper.jar sozinho).
-3. Rode no emulador ou aparelho com Android 7.0 (API 24) ou superior.
-4. Para testar o motor de regras: ./gradlew test (inclui perft e mate do tolo).
-
-## Como debugar
-
-1. Selecione a configuração `app` e o build variant `debug` (View > Tool Windows > Build Variants).
-2. Clique no ícone de bug (Debug 'app') ou Shift+F9; clique na margem esquerda do código para pôr breakpoints.
-3. Os testes do motor também rodam em debug: clique direito em ChessEngineTest > Debug.
-4. `ui-tooling` está incluído no debug (Layout Inspector e @Preview).
-
-## Estrutura
-
-1. domain/model: Piece, Move, Position, GameStatus.
-2. domain/engine: ChessEngine (regras puras, sem Android; SAN incluso).
-3. presentation: GameViewModel (StateFlow de GameUiState + SharedFlow de GameEvent), GameState.
-4. ui/theme: tema Material 3 (cores dinâmicas) e paletas do tabuleiro.
-5. ui/components: ChessBoard (Canvas, animações, arrastar e soltar), PieceGlyph, Hud.
-6. ui/screens: MenuScreen e GameScreen (promoção, fim de jogo, controles).
-7. util: SoundPlayer.
-
-## Fluxo de dados
-
-A UI envia intenções ao ViewModel (clique, soltar peça, promoção, desfazer). O ViewModel valida
-com o ChessEngine, atualiza o GameUiState e emite GameEvent para som e vibração.
-
-## Personalização
-
-1. Novos temas de tabuleiro: adicione um item em BoardTheme (BoardPalette.kt).
-2. Sons reais: troque o SoundPlayer por SoundPool com arquivos .ogg em res/raw.
-3. Novos controles de tempo: adicione itens em TimeControl (GameState.kt).
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="150" viewBox="0 0 720 150" role="img" aria-label="Paleta Nyx">
+<style>text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+@keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.c{transform-box:fill-box;transform-origin:center;animation:pop 3s ease-in-out infinite}
+</style>
+<rect width="720" height="150" rx="22" fill="#12102B"/><circle class="c" cx="72" cy="62" r="32" fill="#0B0B1A" stroke="#3A3470" stroke-width="2" style="animation-delay:0.0s"/><text x="72" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#E9E4FF">Nyx Night</text><text x="72" y="134" text-anchor="middle" font-size="12" fill="#8B87B8">#0B0B1A</text><circle class="c" cx="216" cy="62" r="32" fill="#7C5CFF" stroke="#ffffff33" stroke-width="2" style="animation-delay:0.4s"/><text x="216" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#E9E4FF">Violeta</text><text x="216" y="134" text-anchor="middle" font-size="12" fill="#8B87B8">#7C5CFF</text><circle class="c" cx="360" cy="62" r="32" fill="#22D3EE" stroke="#ffffff33" stroke-width="2" style="animation-delay:0.8s"/><text x="360" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#E9E4FF">Ciano</text><text x="360" y="134" text-anchor="middle" font-size="12" fill="#8B87B8">#22D3EE</text><circle class="c" cx="504" cy="62" r="32" fill="#FF5CAA" stroke="#ffffff33" stroke-width="2" style="animation-delay:1.2s"/><text x="504" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#E9E4FF">Rosa</text><text x="504" y="134" text-anchor="middle" font-size="12" fill="#8B87B8">#FF5CAA</text><circle class="c" cx="648" cy="62" r="32" fill="#FFC857" stroke="#ffffff33" stroke-width="2" style="animation-delay:1.6s"/><text x="648" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#E9E4FF">Ouro</text><text x="648" y="134" text-anchor="middle" font-size="12" fill="#8B87B8">#FFC857</text></svg>
